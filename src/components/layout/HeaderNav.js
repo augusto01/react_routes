@@ -11,11 +11,11 @@ export const HeaderNav = () => {
       <nav>
         <ul>
           {/**Se utiliza la etiqueta navlink para que la pagina no tenga que recargar ! */}
-            <li><NavLink to='/Inicio'>Inicio</NavLink></li>
-            <li><NavLink to='/Contacto'>Contacto</NavLink></li>
-            <li><NavLink to='/Curriculum'>Curriculum</NavLink></li>
-            <li><NavLink to='/Servicios'>Servicios</NavLink></li>
-            <li><NavLink to='/Portfolio'>Portafolio</NavLink></li>
+            <li><NavLink to='/Inicio'className={({isActive})=> isActive ? 'active': ''}>Inicio</NavLink></li>
+            <li><NavLink to='/Contacto'className={({isActive})=> isActive ? 'active': ''}>Contacto</NavLink></li>
+            <li><NavLink to='/Curriculum'className={({isActive})=> isActive ? 'active': ''}>Curriculum</NavLink></li>
+            <li><NavLink to='/Servicios'className={({isActive})=> isActive ? 'active': ''}>Servicios</NavLink></li>
+            <li><NavLink to='/Portfolio'className={({isActive})=> isActive ? 'active': ''}>Portafolio</NavLink></li>
         </ul>
       </nav>
     </header>
