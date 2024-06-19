@@ -31,18 +31,13 @@ code {
 }
 
 
-/*styles layout*/
+/*========== STYLES LAYOUT ========= */
 .layout{
   width: 85%;
   margin: 0 auto;
 }
 
-/*Styles nav*/
-.active{
-  color:#fa4529 !important;
-  font-weight: bolder;
-  transition: 300ms;
-}
+/*========== STYLES NAV ========= */
 
 .header {
   display: flex;
@@ -102,6 +97,12 @@ code {
   color: #fa4529;
 }
 
+.active{
+  color:#fa4529 !important;   /*clase para el resaltado del nav*/
+  font-weight: bolder;
+  transition: 300ms;
+}
+
 /*========== FOOTER STYLES ========= */
 .footer{
   text-align: center;
@@ -115,7 +116,7 @@ code {
   color: #444;
 }
 
-/*========== CONTENT STYLES =========*/
+/*==========*\ CONTENT STYLES /*=========*/
 
 .content{
   min-height: 400px;

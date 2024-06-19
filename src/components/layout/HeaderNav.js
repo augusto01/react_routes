@@ -11,6 +11,7 @@ export const HeaderNav = () => {
       <nav>
         <ul>
           {/**Se utiliza la etiqueta navlink para que la pagina no tenga que recargar ! */}
+          {/**La funcion isActive lo unico que hace es cargar la clase active cuando el navlink esta presionado para cargar el resaltado*/}
             <li><NavLink to='/Inicio'className={({isActive})=> isActive ? 'active': ''}>Inicio</NavLink></li>
             <li><NavLink to='/Contacto'className={({isActive})=> isActive ? 'active': ''}>Contacto</NavLink></li>
             <li><NavLink to='/Curriculum'className={({isActive})=> isActive ? 'active': ''}>Curriculum</NavLink></li>
